@@ -1,14 +1,16 @@
 {
   "keyboard_shortcut": "", 
-  "name": "hook_theme()", 
+  "name": "hook_block_info()", 
   "value": [
     "/**", 
-    " * Implements hook_theme().", 
+    " * Implements hook_block_info().", 
     " */", 
-    "function [[%b]]_theme($existing, $type, $theme, $path) {", 
-    "\treturn array(", 
-    "\t  !@#_currentPos!@#_anchor", 
+    "function [[%b]]_block_info() {", 
+    "\t$blocks['!@#_currentPos!@#_anchor'] = array(", 
+    "\t\t", 
     "\t);", 
+    "\t", 
+    "\treturn $blocks;", 
     "}"
   ], 
   "set_selection": "true", 

@@ -5,7 +5,7 @@
     "/**", 
     " * Implements hook_menu().", 
     " */", 
-    "function [[%ask:Module:%b]]_menu() {", 
+    "function [[%b]]_menu() {", 
     "\t$items['!@#_currentPos!@#_anchor'] = array(", 
     "\t\t", 
     "\t);", 
