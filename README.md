@@ -3,20 +3,20 @@ Komodo Drupal for Mac
 Snippets and Macros to make Drupal coding more efficient.
 
 
-+ Supported Versions
+Supported Versions
 --------------------------------------------------------------------------------
 - Komodo Edit 7.x
 - Drupal 7.x
 
 
-+ Description
+Description
 --------------------------------------------------------------------------------
 This is on organic collection of Drupal module hooks, complete with proper
 doxygen comments and function signatures.  The more I use, the more the contents
 will grow.  Forking, patching and contributing is always appreciated.
 
 
-+ Instructions
+Instructions
 --------------------------------------------------------------------------------
 1. Open the "tools" folder in your current version of Komodo Edit.
    E.x. /Users/[name]/Library/Application Support/KomodoEdit/[version]/tools
@@ -33,7 +33,7 @@ will grow.  Forking, patching and contributing is always appreciated.
   your tools right in the Komodo toolbar panel at the top.
 
 
-+ Resources
+Resources
 --------------------------------------------------------------------------------
 - Komodo Interpolation Shortcuts (for creating dynamic snippets)
   - http://docs.activestate.com/komodo/7.1/shortcuts.html

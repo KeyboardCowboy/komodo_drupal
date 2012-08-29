@@ -1,16 +1,14 @@
 {
   "keyboard_shortcut": "", 
-  "name": "hook_menu()", 
+  "name": "hook_theme()", 
   "value": [
     "/**", 
-    " * Implements hook_menu().", 
+    " * Implements hook_theme().", 
     " */", 
-    "function [[%ask:Module:%b]]_menu() {", 
-    "\t$items['!@#_currentPos!@#_anchor'] = array(", 
-    "\t\t", 
+    "function [[%ask:Module:%b]]_theme($existing, $type, $theme, $path) {", 
+    "\treturn array(", 
+    "\t  !@#_currentPos!@#_anchor", 
     "\t);", 
-    "\t", 
-    "\treturn $items;", 
     "}"
   ], 
   "set_selection": "true", 
