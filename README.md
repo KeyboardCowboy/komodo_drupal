@@ -31,3 +31,9 @@ will grow.  Forking, patching and contributing is always appreciated.
 {Pro Tip}
 - In Komodo create a new toolbar then drop this repo into that and you'll have
   your tools right in the Komodo toolbar panel at the top.
+
+
++ Resources
+--------------------------------------------------------------------------------
+- Komodo Interpolation Shortcuts (for creating dynamic snippets)
+  - http://docs.activestate.com/komodo/7.1/shortcuts.html
