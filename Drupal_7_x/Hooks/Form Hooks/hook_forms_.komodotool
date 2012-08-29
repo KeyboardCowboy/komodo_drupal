@@ -1,0 +1,21 @@
+{
+  "keyboard_shortcut": "", 
+  "name": "hook_forms()", 
+  "value": [
+    "/**", 
+    " * Implements hook_forms().", 
+    " */", 
+    "function [[%b]]_forms($form_id, $args) {", 
+    "\t$forms['!@#_currentPos!@#_anchor'] = array(", 
+    "\t", 
+    "\t);", 
+    "\t", 
+    "\treturn $forms;", 
+    "}"
+  ], 
+  "set_selection": "true", 
+  "version": "1.0.7", 
+  "type": "snippet", 
+  "indent_relative": "true", 
+  "icon": "chrome://famfamfamsilk/skin/icons/brick_add.png"
+}

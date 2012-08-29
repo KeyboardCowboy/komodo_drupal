@@ -1,0 +1,17 @@
+{
+  "keyboard_shortcut": "", 
+  "name": "hook_block_info_alter()", 
+  "value": [
+    "/**", 
+    " * Implements hook_block_info_alter().", 
+    " */", 
+    "function [[%b]]_block_info_alter(&$blocks, $theme, $code_blocks) {", 
+    "\t!@#_currentPos!@#_anchor", 
+    "}"
+  ], 
+  "set_selection": "true", 
+  "version": "1.0.7", 
+  "type": "snippet", 
+  "indent_relative": "true", 
+  "icon": "chrome://famfamfamsilk/skin/icons/brick_add.png"
+}

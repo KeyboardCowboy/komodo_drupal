@@ -1,0 +1,17 @@
+{
+  "keyboard_shortcut": "", 
+  "name": "hook_block_view_MODULE_DELTA_alter()", 
+  "value": [
+    "/**", 
+    " * Implements hook_block_view_MODULE_DELTA_alter().", 
+    " */", 
+    "function [[%b]]_block_view_[[%ask:MODULE]]_[[%ask:DELTA]]_alter(&$data, $block) {", 
+    "\t!@#_currentPos!@#_anchor", 
+    "}"
+  ], 
+  "set_selection": "true", 
+  "version": "1.0.7", 
+  "type": "snippet", 
+  "indent_relative": "true", 
+  "icon": "chrome://famfamfamsilk/skin/icons/brick_add.png"
+}

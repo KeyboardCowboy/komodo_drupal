@@ -1,0 +1,26 @@
+{
+  "keyboard_shortcut": "", 
+  "name": "hook_block_view()", 
+  "value": [
+    "/**", 
+    " * Implements hook_block_view().", 
+    " */", 
+    "function [[%b]]_block_view($delta = '') {", 
+    "\t$block = array();", 
+    "\t", 
+    "\tswitch ($delta) {", 
+    "\t  case '!@#_currentPos!@#_anchor':", 
+    "\t\t\t$block['subject'] = t('');", 
+    "\t\t\t$block['content'] = '';", 
+    "\t\t\tbreak;", 
+    "\t}", 
+    "\t", 
+    "\treturn $block;", 
+    "}"
+  ], 
+  "set_selection": "true", 
+  "version": "1.0.7", 
+  "type": "snippet", 
+  "indent_relative": "true", 
+  "icon": "chrome://famfamfamsilk/skin/icons/brick_add.png"
+}
