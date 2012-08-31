@@ -1,0 +1,17 @@
+{
+  "keyboard_shortcut": "", 
+  "name": "hook_menu_local_tasks_alter()", 
+  "value": [
+    "/**", 
+    " * Implements hook_menu_local_tasks_alter().", 
+    " */", 
+    "function [[%b]]_menu_local_tasks_alter(&$data, $router_item, $root_path) {", 
+    "\t!@#_currentPos!@#_anchor", 
+    "}"
+  ], 
+  "set_selection": "true", 
+  "version": "1.0.7", 
+  "type": "snippet", 
+  "indent_relative": "true", 
+  "icon": "chrome://famfamfamsilk/skin/icons/brick_add.png"
+}
