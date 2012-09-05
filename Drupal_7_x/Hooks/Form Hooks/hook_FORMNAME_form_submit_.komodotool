@@ -3,9 +3,9 @@
   "name": "hook_FORMNAME_form_submit()", 
   "value": [
     "/**", 
-    " * [[%ask:Form Description]]", 
+    " * Implements hook_FORM_ID_form_submit().", 
     " */", 
-    "function [[%b]]_[[%ask:Form Name]]_form_submit($form, &$form_state) {", 
+    "function [[%b]]_[[%ask:FORM_ID]]_form_submit($form, &$form_state) {", 
     "\t!@#_currentPos!@#_anchor", 
     "}"
   ], 
@@ -13,5 +13,5 @@
   "version": "1.0.7", 
   "type": "snippet", 
   "indent_relative": "true", 
-  "icon": "chrome://famfamfamsilk/skin/icons/brick_add.png"
+  "icon": "chrome://famfamfamsilk/skin/icons/brick_edit.png"
 }

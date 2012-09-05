@@ -1,0 +1,17 @@
+{
+  "keyboard_shortcut": "", 
+  "name": "hook_menu_link_update()", 
+  "value": [
+    "/**", 
+    " * Implements hook_menu_link_update().", 
+    " */", 
+    "function [[%b]]_menu_link_update($link) {", 
+    "\t!@#_currentPos!@#_anchor", 
+    "}"
+  ], 
+  "set_selection": "true", 
+  "version": "1.0.7", 
+  "type": "snippet", 
+  "indent_relative": "true", 
+  "icon": "chrome://famfamfamsilk/skin/icons/brick_add.png"
+}
