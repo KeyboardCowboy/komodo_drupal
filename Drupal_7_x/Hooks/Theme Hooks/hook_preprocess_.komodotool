@@ -1,12 +1,16 @@
 {
   "keyboard_shortcut": "", 
-  "name": "hook_FORM_ID_form_submit()", 
+  "name": "hook_preprocess()", 
   "value": [
     "/**", 
-    " * Implements hook_FORM_ID_form_submit().", 
+    " * Implements hook_preprocess().", 
     " */", 
-    "function [[%b]]_[[%ask:FORM_ID]]_form_submit($form, &$form_state) {", 
-    "\t!@#_currentPos!@#_anchor", 
+    "function [[%b]]_preprocess(&$vars, $hook) {", 
+    "  switch ($hook) {", 
+    "\t\tcase '!@#_currentPos!@#_anchor':", 
+    "\t\t\t", 
+    "\t\t  break;", 
+    "\t}", 
     "}"
   ], 
   "set_selection": "true", 

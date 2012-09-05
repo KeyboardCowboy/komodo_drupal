@@ -1,11 +1,11 @@
 {
   "keyboard_shortcut": "", 
-  "name": "hook_FORM_ID_form()", 
+  "name": "hook_FORMNAME_form()", 
   "value": [
     "/**", 
-    " * Implements hook_FORM_ID_form().", 
+    " * [[%ask:Form Description]]", 
     " */", 
-    "function [[%b]]_[[%ask:FORM_ID]]_form($form, &$form_state) {", 
+    "function [[%b]]_[[%ask:Form Name]]_form($form, &$form_state) {", 
     "\t$form['!@#_currentPos!@#_anchor'] = array(", 
     "\t", 
     "\t);", 

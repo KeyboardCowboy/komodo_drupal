@@ -1,0 +1,17 @@
+{
+  "keyboard_shortcut": "", 
+  "name": "hook_FORMNAME_form_validate()", 
+  "value": [
+    "/**", 
+    " * [[%ask:Form Description]]", 
+    " */", 
+    "function [[%b]]_[[%ask:Form Name]]_form_validate($form, &$form_state) {", 
+    "\t!@#_currentPos!@#_anchor", 
+    "}"
+  ], 
+  "set_selection": "true", 
+  "version": "1.0.7", 
+  "type": "snippet", 
+  "indent_relative": "true", 
+  "icon": "chrome://famfamfamsilk/skin/icons/brick_add.png"
+}
