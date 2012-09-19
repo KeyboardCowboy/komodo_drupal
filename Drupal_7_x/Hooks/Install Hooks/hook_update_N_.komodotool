@@ -1,0 +1,23 @@
+{
+  "keyboard_shortcut": "", 
+  "set_selection": "true", 
+  "name": "hook_update_N()", 
+  "icon": "chrome://famfamfamsilk/skin/icons/brick_add.png", 
+  "type": "snippet", 
+  "value": [
+    "/**", 
+    " * Implements hook_update_N().", 
+    " * [[%ask1:Update Description]]", 
+    " */", 
+    "function [[%b]]_update_7[[&ask2:Module Major Version (ex: \"1\", \"2\")]][[%ask3:Version Update Number (ex: \"00\", \"01\")]](&$sandbox) {", 
+    "\t!@#_currentPos!@#_anchor", 
+    "\t", 
+    "\t// Provide a success messgage.", 
+    "\treturn t('Update successful: [[%b]]7[[%ask2]][[%ask3]] - [[%ask1]]');", 
+    "\t", 
+    "\t// If the update fails, provide a failure message.", 
+    "\tthrow new DrupalUpdateException(Updated failed: [[%b]]7[[%ask2]][[%ask3]] - [[%ask1]]);", 
+    "}"
+  ], 
+  "indent_relative": "true"
+}
