@@ -28,11 +28,6 @@ Instructions
 3. Restart Komodo and you should see a new folder called "Drupal" in your
    toolbox.
 
-{Pro Tip}
-- In Komodo create a new toolbar then drop this repo into that and you'll have
-  your tools right in the Komodo toolbar panel at the top.
-
-
 Resources
 --------------------------------------------------------------------------------
 - Komodo Interpolation Shortcuts (for creating dynamic snippets)
