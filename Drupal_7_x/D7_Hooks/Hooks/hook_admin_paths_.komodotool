@@ -1,9 +1,6 @@
 {
   "keyboard_shortcut": "", 
-  "set_selection": "true", 
   "name": "hook_admin_paths()", 
-  "icon": "chrome://famfamfamsilk/skin/icons/brick_add.png", 
-  "type": "snippet", 
   "value": [
     "/**", 
     " * Implements hook_admin_paths().", 
@@ -15,5 +12,9 @@
     "  return $paths;", 
     "}"
   ], 
-  "indent_relative": "true"
+  "set_selection": "true", 
+  "version": "1.0.7", 
+  "type": "snippet", 
+  "indent_relative": "true", 
+  "icon": "chrome://famfamfamsilk/skin/icons/brick_add.png"
 }
