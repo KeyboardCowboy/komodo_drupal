@@ -1,12 +1,12 @@
 {
   "keyboard_shortcut": "", 
-  "name": "hook_date_formats_alter()", 
+  "name": "hook_init()", 
   "value": [
     "/**", 
-    " * Implements !@#_anchorhook_date_formats_alter()!@#_currentPos.", 
+    " * Implements hook_init().", 
     " */", 
-    "function [[%b]]_date_formats_alter(&$formats) {", 
-    "  ", 
+    "function [[%b]]_init() {", 
+    "\t!@#_currentPos!@#_anchor", 
     "}"
   ], 
   "set_selection": "true", 

@@ -1,12 +1,12 @@
 {
   "keyboard_shortcut": "", 
-  "name": "hook_date_formats_alter()", 
+  "name": "hook_url_outbound_alter()", 
   "value": [
     "/**", 
-    " * Implements !@#_anchorhook_date_formats_alter()!@#_currentPos.", 
+    " * Implements hook_url_outbound_alter().", 
     " */", 
-    "function [[%b]]_date_formats_alter(&$formats) {", 
-    "  ", 
+    "function [[%b]]_url_outbound_alter(&$path, &$options, $original_path) {", 
+    "\t!@#_currentPos!@#_anchor", 
     "}"
   ], 
   "set_selection": "true", 
