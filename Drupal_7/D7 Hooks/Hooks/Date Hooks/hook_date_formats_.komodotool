@@ -1,0 +1,23 @@
+{
+  "keyboard_shortcut": "", 
+  "set_selection": "true", 
+  "name": "hook_date_formats()", 
+  "icon": "chrome://famfamfamsilk/skin/icons/brick_add.png", 
+  "type": "snippet", 
+  "value": [
+    "/*", 
+    " * Implements hook_date_formats().", 
+    " */", 
+    "function [[%b]]_date_formats() {", 
+    "  $formats = array();", 
+    "", 
+    "  $formats[!@#_currentPos!@#_anchor] = array(", 
+    "    'type' => '',", 
+    "    'format' => '',", 
+    "    'locales' => array(),", 
+    "  );", 
+    "  return $formats;", 
+    "}"
+  ], 
+  "indent_relative": "true"
+}
