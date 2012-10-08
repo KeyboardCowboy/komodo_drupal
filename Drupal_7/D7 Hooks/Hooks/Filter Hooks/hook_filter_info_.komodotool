@@ -1,0 +1,22 @@
+{
+  "keyboard_shortcut": "", 
+  "name": "hook_filter_info()", 
+  "value": [
+    "/**", 
+    " * Implements hook_filter_info().", 
+    " */", 
+    "function [[%b]]_filter_info() {", 
+    "  $filters['[[%ask1:Filter Name (machine name)]]'] = array(", 
+    "    'title' => t('!@#_currentPos!@#_anchor'), ", 
+    "    'description' => t(''), ", 
+    "    'process callback' => '[[%b]]_filter_[[%ask1]]_process', ", 
+    "  );", 
+    "  return $filters;", 
+    "}"
+  ], 
+  "set_selection": "true", 
+  "version": "1.0.7", 
+  "type": "snippet", 
+  "indent_relative": "true", 
+  "icon": "chrome://famfamfamsilk/skin/icons/brick_add.png"
+}

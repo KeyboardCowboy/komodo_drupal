@@ -1,0 +1,20 @@
+{
+  "keyboard_shortcut": "", 
+  "name": "hook_token_info()", 
+  "value": [
+    "/**", 
+    " * Implements hook_token_info().", 
+    " */", 
+    "function [[%b]]_token_info() {", 
+    "  $info['tokens']['[[%ask1:Token Type]]']['[[%ask2:Token Name (machine name)]]'] = array(", 
+    "    'name' => t('!@#_currentPos!@#_anchor'),", 
+    "    'description' => t(''),", 
+    "  );", 
+    "  return $info;", 
+    "}"
+  ], 
+  "set_selection": "true", 
+  "type": "snippet", 
+  "indent_relative": "true", 
+  "icon": "chrome://famfamfamsilk/skin/icons/brick_add.png"
+}

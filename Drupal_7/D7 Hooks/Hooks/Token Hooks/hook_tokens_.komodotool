@@ -1,0 +1,30 @@
+{
+  "keyboard_shortcut": "", 
+  "set_selection": "true", 
+  "name": "hook_tokens()", 
+  "icon": "chrome://famfamfamsilk/skin/icons/brick_add.png", 
+  "type": "snippet", 
+  "value": [
+    "/**", 
+    " * Implements hook_tokens().", 
+    " */", 
+    "function [[%b]]_tokens($type, $tokens, array $data = array(), array $options = array()) {", 
+    "  $replacements = array();", 
+    "  ", 
+    "  switch ($type) {", 
+    "    case '!@#_currentPos!@#_anchor':", 
+    "      foreach ($tokens as $name => $original) {", 
+    "        switch ($name) {", 
+    "          case '':", 
+    "            $replacements[$original] = '';", 
+    "            break;", 
+    "        }", 
+    "      }", 
+    "      break;", 
+    "  }", 
+    "  ", 
+    "  return $replacements;", 
+    "}"
+  ], 
+  "indent_relative": "true"
+}

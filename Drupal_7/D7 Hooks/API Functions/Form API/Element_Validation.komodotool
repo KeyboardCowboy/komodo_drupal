@@ -1,0 +1,16 @@
+{
+  "keyboard_shortcut": "", 
+  "name": "Element Validation", 
+  "value": [
+    "/**", 
+    " * Validate [[%ask1:Validator Name (human readable)]] form elements.", 
+    " */", 
+    "function [[%ask2:Validator Name (machine name):%b_element_]]_validate($element, &$form_state) {", 
+    "\t!@#_currentPos!@#_anchor", 
+    "}"
+  ], 
+  "set_selection": "true", 
+  "type": "snippet", 
+  "indent_relative": "true", 
+  "icon": "chrome://famfamfamsilk/skin/icons/brick_edit.png"
+}
