@@ -1,0 +1,15 @@
+{
+  "keyboard_shortcut": "", 
+  "name": "Menu Item", 
+  "value": [
+    "$items['[[%ask1:Path]]'] = array(", 
+    "\t'title' => '[[%ask2:Title]]',", 
+    "\t'page callback' => '[[%ask:Page Callback]]',", 
+    "\t'access arguments' => array('[[%ask3:Access Argument]]'),!@#_currentPos!@#_anchor", 
+    ");"
+  ], 
+  "set_selection": "true", 
+  "type": "snippet", 
+  "indent_relative": "true", 
+  "icon": "chrome://famfamfamsilk/skin/icons/plugin_go.png"
+}
