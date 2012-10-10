@@ -14,6 +14,7 @@
     "}"
   ], 
   "set_selection": "true", 
+  "version": "1.0.7", 
   "type": "snippet", 
   "indent_relative": "true", 
   "icon": "chrome://famfamfamsilk/skin/icons/brick_add.png"
