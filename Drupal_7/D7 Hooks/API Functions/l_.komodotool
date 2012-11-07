@@ -1,0 +1,10 @@
+{
+  "keyboard_shortcut": "", 
+  "name": "l()", 
+  "value": [
+    "l(t('[[%ask1:Title]]'), \"[[%ask2:HREF]]\"!@#_currentPos!@#_anchor);"
+  ], 
+  "set_selection": "true", 
+  "type": "snippet", 
+  "indent_relative": "true"
+}

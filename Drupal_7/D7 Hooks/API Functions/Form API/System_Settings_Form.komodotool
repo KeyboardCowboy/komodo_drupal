@@ -1,0 +1,20 @@
+{
+  "keyboard_shortcut": "", 
+  "name": "System Settings Form", 
+  "value": [
+    "/**", 
+    " * [[%ask:Form Description]]", 
+    " */", 
+    "function [[%b]]_[[%ask:Form Name]]_form($form, &$form_state) {", 
+    "\t$form['!@#_currentPos!@#_anchor'] = array(", 
+    "\t", 
+    "\t);", 
+    "\t", 
+    "\treturn system_settings_form($form);", 
+    "}"
+  ], 
+  "set_selection": "true", 
+  "type": "snippet", 
+  "indent_relative": "true", 
+  "icon": "chrome://famfamfamsilk/skin/icons/brick_edit.png"
+}

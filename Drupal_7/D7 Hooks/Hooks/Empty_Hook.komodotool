@@ -1,0 +1,16 @@
+{
+  "keyboard_shortcut": "Meta+Ctrl+H", 
+  "name": "Empty Hook", 
+  "value": [
+    "/**", 
+    " * Implements hook_[[%ask1:hook]]().", 
+    " */", 
+    "function [[%b]]_[[%ask1]](!@#_currentPos!@#_anchor) {", 
+    "  ", 
+    "}"
+  ], 
+  "set_selection": "true", 
+  "type": "snippet", 
+  "indent_relative": "true", 
+  "icon": "chrome://famfamfamsilk/skin/icons/brick_add.png"
+}
