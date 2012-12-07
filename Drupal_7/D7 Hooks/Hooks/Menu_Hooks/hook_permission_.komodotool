@@ -1,0 +1,21 @@
+{
+  "keyboard_shortcut": "", 
+  "name": "hook_permission()", 
+  "value": [
+    "/**", 
+    " * Implements hook_permission().", 
+    " */", 
+    "function [[%b]]!@#_currentPos!@#_anchor_permission() {", 
+    "  return array(", 
+    "    '' => array(", 
+    "      'title' => t(''),", 
+    "      'description' => t(''),", 
+    "    ),", 
+    "  );", 
+    "}"
+  ], 
+  "set_selection": "true", 
+  "type": "snippet", 
+  "indent_relative": "true", 
+  "icon": "chrome://famfamfamsilk/skin/icons/brick_add.png"
+}

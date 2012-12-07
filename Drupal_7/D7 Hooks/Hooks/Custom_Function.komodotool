@@ -1,0 +1,17 @@
+{
+  "keyboard_shortcut": "", 
+  "name": "Custom Function", 
+  "value": [
+    "/**", 
+    " * [[%ask1:Description]]", 
+    " */", 
+    "function [[%ask2:Function:%b_]]() {", 
+    "\t!@#_currentPos!@#_anchor", 
+    "}"
+  ], 
+  "set_selection": "true", 
+  "version": "1.0.7", 
+  "type": "snippet", 
+  "indent_relative": "true", 
+  "icon": "chrome://famfamfamsilk/skin/icons/brick.png"
+}

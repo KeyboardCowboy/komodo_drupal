@@ -1,0 +1,17 @@
+{
+  "keyboard_shortcut": "", 
+  "name": "hook_field_delete_instance()", 
+  "value": [
+    "/**", 
+    " * Implements hook_field_delete_instance().", 
+    " */", 
+    "function [[%b]]_field_delete_instance($instance) {", 
+    "\t!@#_currentPos!@#_anchor", 
+    "}"
+  ], 
+  "set_selection": "true", 
+  "version": "1.0.7", 
+  "type": "snippet", 
+  "indent_relative": "true", 
+  "icon": "chrome://famfamfamsilk/skin/icons/brick_add.png"
+}

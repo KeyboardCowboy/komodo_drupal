@@ -1,0 +1,20 @@
+{
+  "keyboard_shortcut": "", 
+  "set_selection": "true", 
+  "name": "hook_nodeapi()", 
+  "icon": "chrome://famfamfamsilk/skin/icons/brick_add.png", 
+  "type": "snippet", 
+  "value": [
+    "/**", 
+    " * Implements hook_nodeapi().", 
+    " */", 
+    "function [[%b]]_nodeapi(&$node, $op, $a3 = NULL, $a4 = NULL) {", 
+    "  switch ($op) {", 
+    "    case '!@#_currentPos!@#_anchor':", 
+    "      ", 
+    "      break;", 
+    "  }", 
+    "}"
+  ], 
+  "indent_relative": "true"
+}

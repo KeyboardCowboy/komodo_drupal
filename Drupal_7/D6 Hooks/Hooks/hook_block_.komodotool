@@ -1,9 +1,6 @@
 {
   "keyboard_shortcut": "", 
-  "set_selection": "true", 
   "name": "hook_block()", 
-  "icon": "chrome://famfamfamsilk/skin/icons/brick_add.png", 
-  "type": "snippet", 
   "value": [
     "/**", 
     " * Implements hook_block().", 
@@ -32,5 +29,9 @@
     "  }", 
     "}"
   ], 
-  "indent_relative": "true"
+  "set_selection": "true", 
+  "version": "1.0.7", 
+  "type": "snippet", 
+  "indent_relative": "true", 
+  "icon": "chrome://famfamfamsilk/skin/icons/brick_add.png"
 }
