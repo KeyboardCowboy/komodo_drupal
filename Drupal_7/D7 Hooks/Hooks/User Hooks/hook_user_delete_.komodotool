@@ -1,0 +1,16 @@
+{
+  "keyboard_shortcut": "", 
+  "set_selection": "true", 
+  "name": "hook_user_delete()", 
+  "icon": "chrome://famfamfamsilk/skin/icons/brick_add.png", 
+  "type": "snippet", 
+  "value": [
+    "/**", 
+    " * Implements hook_user_delete().", 
+    " */", 
+    "function [[%b]]_member_user_delete($account) {", 
+    "  !@#_currentPos!@#_anchor", 
+    "}"
+  ], 
+  "indent_relative": "true"
+}

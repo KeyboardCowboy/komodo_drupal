@@ -1,0 +1,25 @@
+{
+  "keyboard_shortcut": "", 
+  "set_selection": "true", 
+  "name": "hook_field_widget_info()", 
+  "icon": "chrome://famfamfamsilk/skin/icons/brick_add.png", 
+  "type": "snippet", 
+  "value": [
+    "/**", 
+    " * Implements hook_field_widget_info().", 
+    " */", 
+    "function [[%b]]_field_widget_info() {", 
+    "  $info['!@#_currentPos!@#_anchor'] = array(", 
+    "    'label' => t(''),", 
+    "    'field types' => array(''),", 
+    "    'behaviors' => array(", 
+    "      'multiple values' => FIELD_BEHAVIOR_DEFAULT,", 
+    "      'default value' => FIELD_BEHAVIOR_DEFAULT,", 
+    "    ),", 
+    "  );", 
+    "", 
+    "  return $info;", 
+    "}"
+  ], 
+  "indent_relative": "true"
+}

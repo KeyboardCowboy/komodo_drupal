@@ -1,0 +1,17 @@
+{
+  "keyboard_shortcut": "", 
+  "set_selection": "true", 
+  "name": "hook_filter_FILTER_process()", 
+  "icon": "chrome://famfamfamsilk/skin/icons/brick_add.png", 
+  "type": "snippet", 
+  "value": [
+    "/**", 
+    " * Implements hook_filter_FILTER_process().", 
+    " */", 
+    "function [[%b]]_filter_[[%ask1:Filter Name]]_process($text, $filter, $format, $langcode, $cache, $cache_id) {", 
+    "\t!@#_currentPos!@#_anchor", 
+    "  return $text;", 
+    "}"
+  ], 
+  "indent_relative": "true"
+}

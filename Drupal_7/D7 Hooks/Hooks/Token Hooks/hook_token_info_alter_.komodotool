@@ -1,16 +1,16 @@
 {
   "keyboard_shortcut": "", 
-  "set_selection": "true", 
   "name": "hook_token_info_alter()", 
-  "icon": "chrome://famfamfamsilk/skin/icons/brick_add.png", 
-  "type": "snippet", 
   "value": [
     "/**", 
     " * Implements hook_token_info_alter().", 
     " */", 
-    "function [[%b]]_token_info_alter(&$info) {", 
+    "function [[%b]]_token_info_alter(&$data) {", 
     "  !@#_currentPos!@#_anchor", 
     "}"
   ], 
-  "indent_relative": "true"
+  "set_selection": "true", 
+  "type": "snippet", 
+  "indent_relative": "true", 
+  "icon": "chrome://famfamfamsilk/skin/icons/brick_add.png"
 }

@@ -1,0 +1,24 @@
+{
+  "keyboard_shortcut": "", 
+  "name": "hook_user_categories()", 
+  "value": [
+    "/**", 
+    " * Implements hook_user_categories().", 
+    " */", 
+    "function [[%b]]_user_categories() {", 
+    "  $data[] = array(", 
+    "    'name' => '!@#_currentPos!@#_anchor',", 
+    "    'title' => t(''),", 
+    "    'access callback' => '',", 
+    "    'access arguments' => array(),", 
+    "    'weight' => 0,", 
+    "  );", 
+    "", 
+    "  return $data;", 
+    "}"
+  ], 
+  "set_selection": "true", 
+  "type": "snippet", 
+  "indent_relative": "true", 
+  "icon": "chrome://famfamfamsilk/skin/icons/brick_add.png"
+}

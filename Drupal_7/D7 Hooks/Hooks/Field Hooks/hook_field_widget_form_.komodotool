@@ -1,0 +1,16 @@
+{
+  "keyboard_shortcut": "", 
+  "set_selection": "true", 
+  "name": "hook_field_widget_form()", 
+  "icon": "chrome://famfamfamsilk/skin/icons/brick_add.png", 
+  "type": "snippet", 
+  "value": [
+    "/**", 
+    " * Implements !@#_anchorhook_field_widget_form()!@#_currentPos.", 
+    " */", 
+    "function [[%b]]_field_widget_form(&$form, &$form_state, $field, $instance, $langcode, $items, $delta, $element) {", 
+    "  ", 
+    "}"
+  ], 
+  "indent_relative": "true"
+}
