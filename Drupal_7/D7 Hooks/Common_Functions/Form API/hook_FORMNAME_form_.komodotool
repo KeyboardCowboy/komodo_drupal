@@ -1,6 +1,6 @@
 {
   "keyboard_shortcut": "", 
-  "name": "System Settings Form", 
+  "name": "hook_FORMNAME_form()", 
   "value": [
     "/**", 
     " * [[%ask:Form Description]]", 
@@ -10,10 +10,12 @@
     "\t", 
     "\t);", 
     "\t", 
-    "\treturn system_settings_form($form);", 
+    "\treturn $form;", 
     "}"
   ], 
   "set_selection": "true", 
+  "version": "1.0.11", 
+  "auto_abbreviation": "false", 
   "type": "snippet", 
   "indent_relative": "true", 
   "icon": "chrome://famfamfamsilk/skin/icons/brick_edit.png"

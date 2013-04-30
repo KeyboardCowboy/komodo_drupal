@@ -1,15 +1,12 @@
 {
   "keyboard_shortcut": "", 
-  "name": "hook_admin_paths()", 
+  "name": "hook_field_info_alter()", 
   "value": [
     "/**", 
-    " * Implements hook_admin_paths().", 
+    " * Implements hook_field_info_alter().", 
     " */", 
-    "function [[%b]]_admin_paths() {", 
-    "  $paths = array(", 
-    "    '!@#_currentPos!@#_anchor' => TRUE,", 
-    "  );", 
-    "  return $paths;", 
+    "function [[%b]]_field_info_alter(&$info) {", 
+    "  !@#_currentPos!@#_anchor", 
     "}"
   ], 
   "set_selection": "true", 

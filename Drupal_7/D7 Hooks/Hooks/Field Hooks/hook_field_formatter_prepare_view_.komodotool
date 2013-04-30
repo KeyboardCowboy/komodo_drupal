@@ -1,15 +1,12 @@
 {
   "keyboard_shortcut": "", 
-  "name": "hook_admin_paths()", 
+  "name": "hook_field_formatter_prepare_view()", 
   "value": [
     "/**", 
-    " * Implements hook_admin_paths().", 
+    " * Implements hook_field_formatter_prepare_view().", 
     " */", 
-    "function [[%b]]_admin_paths() {", 
-    "  $paths = array(", 
-    "    '!@#_currentPos!@#_anchor' => TRUE,", 
-    "  );", 
-    "  return $paths;", 
+    "function [[%b]]_field_formatter_prepare_view($entity_type, $entities, $field, $instances, $langcode, &$items, $displays) {", 
+    "\t!@#_currentPos!@#_anchor", 
     "}"
   ], 
   "set_selection": "true", 

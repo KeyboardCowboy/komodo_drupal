@@ -10,7 +10,8 @@
     "}"
   ], 
   "set_selection": "true", 
-  "version": "1.0.7", 
+  "version": "1.0.11", 
+  "auto_abbreviation": "false", 
   "type": "snippet", 
   "indent_relative": "true", 
   "icon": "chrome://famfamfamsilk/skin/icons/brick_add.png"

@@ -1,19 +1,17 @@
 {
   "keyboard_shortcut": "", 
-  "name": "hook_theme()", 
+  "name": "hook_node_presave()", 
   "value": [
     "/**", 
-    " * Implements hook_theme().", 
+    " * Implements hook_node_presave().", 
     " */", 
-    "function [[%b]]_theme($existing, $type, $theme, $path) {", 
-    "\treturn array(", 
-    "\t  !@#_currentPos!@#_anchor", 
-    "\t);", 
+    "function [[%b]]_node_presave($node) {", 
+    "\t!@#_currentPos!@#_anchor", 
     "}"
   ], 
   "set_selection": "true", 
   "version": "1.0.11", 
-  "auto_abbreviation": "false", 
+  "auto_abbreviation": "true", 
   "type": "snippet", 
   "indent_relative": "true", 
   "icon": "chrome://famfamfamsilk/skin/icons/brick_add.png"

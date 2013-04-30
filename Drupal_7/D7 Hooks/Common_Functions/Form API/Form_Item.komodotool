@@ -1,9 +1,6 @@
 {
   "keyboard_shortcut": "", 
-  "set_selection": "true", 
   "name": "Form Item", 
-  "icon": "chrome://famfamfamsilk/skin/icons/plugin_add.png", 
-  "type": "snippet", 
   "value": [
     "$form['[[%ask1:Item Name]]'] = array(", 
     "\t'#type' => '[[%ask2: Type]]',", 
@@ -12,5 +9,10 @@
     "\t'#default_value' => [[%ask5:Default Value]],!@#_currentPos!@#_anchor", 
     ");"
   ], 
-  "indent_relative": "true"
+  "set_selection": "true", 
+  "version": "1.0.11", 
+  "auto_abbreviation": "false", 
+  "type": "snippet", 
+  "indent_relative": "true", 
+  "icon": "chrome://famfamfamsilk/skin/icons/plugin_add.png"
 }
