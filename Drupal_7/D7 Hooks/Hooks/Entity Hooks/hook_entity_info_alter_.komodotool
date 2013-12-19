@@ -1,0 +1,18 @@
+{
+  "keyboard_shortcut": "", 
+  "name": "hook_entity_info_alter()", 
+  "value": [
+    "/**", 
+    " * Implements hook_entity_info_alter().", 
+    " */", 
+    "function [[%b]]_entity_info_alter(&$entity_info) {", 
+    "  !@#_currentPos!@#_anchor", 
+    "}"
+  ], 
+  "set_selection": "true", 
+  "version": "1.0.12", 
+  "icon": "chrome://famfamfamsilk/skin/icons/brick_add.png", 
+  "type": "snippet", 
+  "indent_relative": "true", 
+  "auto_abbreviation": "true"
+}

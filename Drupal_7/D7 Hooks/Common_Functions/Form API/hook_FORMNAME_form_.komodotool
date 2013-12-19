@@ -5,8 +5,8 @@
     "/**", 
     " * [[%ask:Form Description]]", 
     " */", 
-    "function [[%b]]_[[%ask:Form Name]]_form($form, &$form_state) {", 
-    "\t$form['!@#_currentPos!@#_anchor'] = array(", 
+    "function [[%b]]_!@#_currentPos!@#_anchor[[%ask:Form Name:%b__form]]_form($form, &$form_state) {", 
+    "\t$form[''] = array(", 
     "\t", 
     "\t);", 
     "\t", 
@@ -15,8 +15,8 @@
   ], 
   "set_selection": "true", 
   "version": "1.0.11", 
-  "auto_abbreviation": "false", 
+  "icon": "chrome://famfamfamsilk/skin/icons/brick_edit.png", 
   "type": "snippet", 
   "indent_relative": "true", 
-  "icon": "chrome://famfamfamsilk/skin/icons/brick_edit.png"
+  "auto_abbreviation": "false"
 }
