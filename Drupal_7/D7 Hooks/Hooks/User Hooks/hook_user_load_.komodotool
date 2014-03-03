@@ -1,0 +1,18 @@
+{
+  "keyboard_shortcut": "", 
+  "name": "hook_user_load()", 
+  "value": [
+    "/**", 
+    " * Implements hook_user_load().", 
+    " */", 
+    "function [[%b]]_user_load($users) {", 
+    "  !@#_currentPos!@#_anchor", 
+    "}"
+  ], 
+  "set_selection": "true", 
+  "version": "1.0.11", 
+  "auto_abbreviation": "false", 
+  "type": "snippet", 
+  "indent_relative": "true", 
+  "icon": "chrome://famfamfamsilk/skin/icons/brick_add.png"
+}
