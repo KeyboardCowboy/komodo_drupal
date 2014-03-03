@@ -1,0 +1,18 @@
+{
+  "keyboard_shortcut": "", 
+  "name": "hook_views_pre_render()", 
+  "value": [
+    "/**", 
+    " * Implements hook_views_pre_render().", 
+    " */", 
+    "function [[%b]]_views_pre_render(&$view) {", 
+    "\t!@#_currentPos!@#_anchor", 
+    "}"
+  ], 
+  "set_selection": "true", 
+  "version": "1.0.11", 
+  "icon": "chrome://famfamfamsilk/skin/icons/brick_add.png", 
+  "type": "snippet", 
+  "indent_relative": "true", 
+  "auto_abbreviation": "true"
+}

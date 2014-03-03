@@ -1,9 +1,6 @@
 {
   "keyboard_shortcut": "", 
-  "set_selection": "true", 
   "name": "hook_user_login()", 
-  "icon": "chrome://famfamfamsilk/skin/icons/brick_add.png", 
-  "type": "snippet", 
   "value": [
     "/**", 
     " * Implements hook_user_login().", 
@@ -12,5 +9,10 @@
     "\t!@#_currentPos!@#_anchor", 
     "}"
   ], 
-  "indent_relative": "true"
+  "set_selection": "true", 
+  "version": "1.0.11", 
+  "auto_abbreviation": "false", 
+  "type": "snippet", 
+  "indent_relative": "true", 
+  "icon": "chrome://famfamfamsilk/skin/icons/brick_add.png"
 }
