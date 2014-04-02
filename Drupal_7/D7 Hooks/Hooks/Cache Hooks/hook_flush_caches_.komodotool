@@ -1,19 +1,18 @@
 {
   "keyboard_shortcut": "", 
-  "name": "hook_block_save()", 
+  "name": "hook_flush_caches()", 
   "value": [
     "/**", 
-    " * Implements hook_block_save().", 
+    " * Implements hook_flush_caches().", 
     " */", 
-    "function [[%b]]_block_save($delta = '', $edit = array()) {", 
-    "\t!@#_currentPos!@#_anchor", 
+    "function [[%b]]_manalytics_flush_caches() {", 
+    "  return array(!@#_currentPos!@#_anchor);", 
     "}"
   ], 
   "set_selection": "true", 
   "version": "1.0.12", 
-  "treat_as_ejs": "false", 
   "icon": "chrome://famfamfamsilk/skin/icons/brick_add.png", 
   "type": "snippet", 
   "indent_relative": "true", 
-  "auto_abbreviation": "false"
+  "auto_abbreviation": "true"
 }

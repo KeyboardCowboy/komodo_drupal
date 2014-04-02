@@ -14,9 +14,10 @@
     "}"
   ], 
   "set_selection": "true", 
-  "version": "1.0.11", 
-  "icon": "chrome://famfamfamsilk/skin/icons/brick_add.png", 
+  "version": "1.0.12", 
+  "auto_abbreviation": "true", 
+  "treat_as_ejs": "false", 
   "type": "snippet", 
   "indent_relative": "true", 
-  "auto_abbreviation": "true"
+  "icon": "chrome://famfamfamsilk/skin/icons/brick_add.png"
 }

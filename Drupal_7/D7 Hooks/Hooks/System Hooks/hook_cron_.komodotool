@@ -1,18 +1,19 @@
 {
-  "keyboard_shortcut": "",
-  "name": "hook_cron()",
+  "keyboard_shortcut": "", 
+  "name": "hook_cron()", 
   "value": [
-    "/**",
-    " * Implements hook_cron().",
-    " */",
-    "function [[%b]]_cron() {",
-    "  !@#_currentPos!@#_anchor",
+    "/**", 
+    " * Implements hook_cron().", 
+    " */", 
+    "function [[%b]]_cron() {", 
+    "  !@#_currentPos!@#_anchor", 
     "}"
-  ],
-  "set_selection": "true",
-  "version": "1.0.11",
-  "auto_abbreviation": "false",
-  "type": "snippet",
-  "indent_relative": "true",
-  "icon": "chrome://famfamfamsilk/skin/icons/brick_add.png"
+  ], 
+  "set_selection": "true", 
+  "version": "1.0.12", 
+  "treat_as_ejs": "false", 
+  "icon": "chrome://famfamfamsilk/skin/icons/brick_add.png", 
+  "type": "snippet", 
+  "indent_relative": "true", 
+  "auto_abbreviation": "false"
 }

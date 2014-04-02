@@ -5,7 +5,8 @@
     "drupal_set_message(!@#_currentPos!@#_anchor, '[[%ask:Type:status]]');"
   ], 
   "set_selection": "true", 
-  "version": "1.0.11", 
+  "version": "1.0.12", 
+  "treat_as_ejs": "false", 
   "type": "snippet", 
   "indent_relative": "true", 
   "auto_abbreviation": "false"

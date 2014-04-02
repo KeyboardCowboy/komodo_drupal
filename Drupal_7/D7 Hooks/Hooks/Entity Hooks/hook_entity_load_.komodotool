@@ -1,19 +1,18 @@
 {
   "keyboard_shortcut": "", 
-  "name": "hook_block_save()", 
+  "name": "hook_entity_load()", 
   "value": [
     "/**", 
-    " * Implements hook_block_save().", 
+    " * Implements hook_entity_load().", 
     " */", 
-    "function [[%b]]_block_save($delta = '', $edit = array()) {", 
+    "function [[%b]]_entity_load($entities, $type) {", 
     "\t!@#_currentPos!@#_anchor", 
     "}"
   ], 
   "set_selection": "true", 
   "version": "1.0.12", 
-  "treat_as_ejs": "false", 
   "icon": "chrome://famfamfamsilk/skin/icons/brick_add.png", 
   "type": "snippet", 
   "indent_relative": "true", 
-  "auto_abbreviation": "false"
+  "auto_abbreviation": "true"
 }
